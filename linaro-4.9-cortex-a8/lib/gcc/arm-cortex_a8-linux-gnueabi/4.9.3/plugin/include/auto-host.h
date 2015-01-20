@@ -110,13 +110,13 @@
 
 /* Define if gcc should always pass --build-id to linker. */
 #ifndef USED_FOR_TARGET
-#define ENABLE_LD_BUILDID 1
+/* #undef ENABLE_LD_BUILDID */
 #endif
 
 
 /* Define to 1 to enable libquadmath support */
 #ifndef USED_FOR_TARGET
-#define ENABLE_LIBQUADMATH_SUPPORT 1
+/* #undef ENABLE_LIBQUADMATH_SUPPORT */
 #endif
 
 
